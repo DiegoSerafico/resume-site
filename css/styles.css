@@ -2,6 +2,29 @@
   text-align: center;
 }
 
-h2.info{
+.info > h2 {
   font-style: italic;
+  font-size: large;
+}
+
+.info > ul {
+  display: inline-block;
+  list-style-position: inside;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body{
+  background-color: #722f37;
+}
+
+.important {
+  font-style: italic;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
 }
